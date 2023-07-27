@@ -1,0 +1,76 @@
+/* popup.css */
+body {
+    width: 180px;
+    height: 180px; /* Yükseklik artırıldı */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .icon-wrapper {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  .icon {
+    width: 48px;
+    height: 48px;
+  }
+  
+ 
+  #water-amount {
+    font-size: 12px; /* Yazı büyütüldü */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #reminder {
+    font-size: 14px; /* Yeni başlık için yazı boyutu */
+    color: #555;
+  }
+  
+  /* popup.css */
+/* Diğer stil tanımlamaları buraya gelecek */
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Düğmelerin genişliği */
+  }
+  
+  button {
+    padding:  8px;
+    background-color: #007bff;
+    border-radius: 16px;
+    color: #fff;
+    border: none;
+   
+    cursor: pointer;
+    flex: 1; /* Düğmelerin eşit genişlikte olmasını sağlar */
+    margin: 3px; /* Düğmeler arasında boşluk bırakır */
+  }
+  
+  #water-amount {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #reminder {
+    font-size: 14px;
+    color: #555;
+  margin-bottom: 3px;
+  }
+
+  .decrease{
+    background-color: orange;
+  }
+  
